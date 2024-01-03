@@ -1,95 +1,65 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function Home() {
+const Main = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Hello&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
+    <div className={styles.main}>
+      <img className={styles.bgIcon} alt="" src="/Bg.png" />
+      <div className={styles.leftside}>
+        <div className={styles.button}>
+          <div className={styles.buttonContainer}>
+            <a href="/" className={styles.explore}>{`Explore `}</a>
+            <img
+              className={styles.rightArrowIcon}
+              alt=""
+              src="/Rightarrow.svg"
             />
-          </a>
+          </div>
+        </div>
+        <div className={styles.unleashYourCreativeContainer}>
+          <span>{`Unleash Your Creative Brilliance: A `}</span>
+          <span className={styles.designerHub}>Designer Hub</span>
+          <span> for Innovation, Collaboration, and Inspiration</span>
+        </div>
+        <img className={styles.vectorIcon} alt="" src="/Vector.svg" />
+        <div className={styles.designersHub}>
+          <p className={styles.designers}>Designers</p>
+          <p className={styles.designers}>Hub</p>
+        </div>
+      </div>
+      <div className={styles.rightside}>
+        <div className={styles.card2}>
+          <div className={styles.card2Child} />
+          <img className={styles.dicons} alt="" src="/3dicons.svg" />
+        </div>
+        <div className={styles.card1}>
+          <div className={styles.card1Child} />
+          <img className={styles.dicons} alt="" src="/3dicons-1.svg" />
         </div>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className={styles.navbar}>
+        <div className={styles.container}>
+          <div className={styles.ul}>
+            <a href="/" className={styles.caseStudy}>
+              Case study
+            </a>
+            <a href="/" className={styles.docs}>
+              Docs
+            </a>
+            <a href="/" className={styles.products}>
+              Products
+            </a>
+            <a href="/" className={styles.trends}>
+              Trends
+            </a>
+            <a href="/" className={styles.about}>
+              About
+            </a>
+          </div>
+        </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
-}
+};
+
+export default Main;

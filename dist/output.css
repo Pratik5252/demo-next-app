@@ -1,0 +1,263 @@
+.heading2 {
+  position: absolute;
+  top: 17px;
+  left: 20.19px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 88.24px;
+  height: 29px;
+}
+
+.findInDepthInformation {
+  margin: 0;
+}
+
+.findInDepthInformationContainer1 {
+  width: 100%;
+}
+
+.findInDepthInformationContainer {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  line-height: 21.6px;
+  display: flex;
+  align-items: center;
+  width: 216.15px;
+  height: 38.61px;
+}
+
+.link,
+.p {
+  position: absolute;
+}
+
+.p {
+  width: calc(100% - 40.37px);
+  top: 57.19px;
+  right: 20.18px;
+  left: 20.19px;
+  height: 43.22px;
+  opacity: 0.6;
+  font-size: 14.4px;
+}
+
+.link {
+  height: 100%;
+  width: calc(100% - 825px);
+  top: 0;
+  right: 825px;
+  bottom: 0;
+  left: 0;
+  border-radius: 12px;
+}
+
+.heading21,
+.learnAboutNextjsContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.heading21 {
+  top: 17px;
+  left: 20.19px;
+  font-weight: 600;
+  width: 94.99px;
+  height: 29px;
+}
+
+.learnAboutNextjsContainer {
+  top: 2px;
+  left: 0;
+  line-height: 21.6px;
+  width: 215.03px;
+  height: 38.61px;
+}
+
+.link1 {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 825px);
+  top: 0;
+  right: 550px;
+  bottom: 0;
+  left: 275px;
+  border-radius: 12px;
+}
+
+.exploreStarterTemplatesContainer,
+.heading22 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.heading22 {
+  top: 17px;
+  left: 20.19px;
+  font-weight: 600;
+  width: 150.32px;
+  height: 29px;
+}
+
+.exploreStarterTemplatesContainer {
+  top: 2px;
+  left: 0;
+  line-height: 21.6px;
+  width: 194.79px;
+  height: 38.61px;
+}
+
+.link2 {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 825px);
+  top: 0;
+  right: 275px;
+  bottom: 0;
+  left: 550px;
+  border-radius: 12px;
+}
+
+.heading23,
+.instantlyDeployYourContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.heading23 {
+  top: 17px;
+  left: 20.19px;
+  font-weight: 600;
+  width: 110.07px;
+  height: 29px;
+}
+
+.instantlyDeployYourContainer {
+  top: 2px;
+  left: 0;
+  line-height: 21.6px;
+  width: 221.95px;
+  height: 38.61px;
+}
+
+.link3 {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 825px);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 825px;
+  border-radius: 12px;
+}
+
+.divpageGridF5kdy {
+  position: absolute;
+  top: 866.59px;
+  left: calc(50% - 550px);
+  width: 1100px;
+  height: 117.41px;
+}
+
+.divpageCenter5ohg7Icon {
+  position: absolute;
+  top: 423.3px;
+  left: calc(50% - 90px);
+  width: 180px;
+  height: 165px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.by {
+  position: absolute;
+  top: 4.5px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 16.53px;
+  height: 15px;
+}
+
+.link4,
+.vercelsvgIcon {
+  position: absolute;
+  height: 24px;
+}
+
+.vercelsvgIcon {
+  top: calc(50% - 12px);
+  left: calc(50% - 37.84px);
+  width: 100px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.link4 {
+  width: calc(100% - 975.67px);
+  top: 12.5px;
+  right: 0;
+  left: 975.67px;
+}
+
+.helloSrcapppagejsTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+
+.helloSrcapppagejs {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  display: flex;
+  align-items: center;
+  width: 171.53px;
+  height: 15px;
+}
+
+.p4 {
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: 0;
+  border-radius: 12px;
+  background-color: rgba(20, 20, 20, 0.5);
+  border: 1px solid rgba(108, 108, 108, 0.3);
+  box-sizing: border-box;
+  width: 205.33px;
+  height: 49px;
+}
+
+.divpageDescription86bsr {
+  position: absolute;
+  top: 96px;
+  left: calc(50% - 550px);
+  width: 1100px;
+  height: 49px;
+  font-size: 13.6px;
+  font-family: "Cascadia Mono";
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 1080px;
+}
+
+.demoNextAppSigmavercelapp {
+  position: relative;
+  background: linear-gradient(180deg, transparent, #000), #000;
+  width: 100%;
+  height: 1080px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
